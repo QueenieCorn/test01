@@ -1,8 +1,10 @@
 
-html, body {height: 100%; width: 100%; padding: 0; margin: 0; font-size: 16px; font-family: 'AleoLight'; background: #fff; }
+html, body {height: 100%; width: 100%; padding: 0; margin: 0; font-size: 16px; font-family: 'AleoLight'; background: #fff; color: #8f8e8e; }
 
 /*HOME*/
 
+h1{text-transform: uppercase; font-size: 35px;}
+h2{text-transform: uppercase; font-size: 30px;}
 
 /*NAV*/
 .navbar-default {background-color: #353434; }
@@ -29,3 +31,112 @@ html, body {height: 100%; width: 100%; padding: 0; margin: 0; font-size: 16px; f
 	display: table-cell;
 	vertical-align: middle;
 }
+
+/*#about div.row > div:first-child >  .about-desc:before {
+    content: url(imgs/icon1.png);
+    height: 20px;
+    width: 20px;
+    position: absolute;
+
+}
+
+#about div.row > div:nth-child(2) > .about-desc:before {
+    content: url(imgs/icon2.png);
+    height: 20px;
+    width: 20px;
+    position: absolute;
+}
+
+#about div.row > div:nth-child(3) > .about-desc:before {
+    content: url(imgs/icon2.png);
+    height: 20px;
+    width: 20px;
+    position: absolute;
+}*/
+
+.about-desc {
+    padding-left: 100px;
+}
+
+#about div.row > div:first-child:before {
+    content: url(imgs/icon1.png);
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 30px;
+}
+
+#about div.row > div:nth-child(2):before {
+    content: url(imgs/icon2.png);
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 30px;
+}
+
+#about div.row > div:nth-child(3):before {
+    content: url(imgs/icon3.png);
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 30px;
+}
+
+#about div.row > div:nth-child(4):before {
+    content: url(imgs/icon4.png);
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 30px;
+}
+
+#about div.row > div:nth-child(5):before {
+    content: url(imgs/icon5.png);
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 30px;
+}
+
+#about div.row > div:nth-child(6):before {
+    content: url(imgs/icon6.png);
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 30px;
+}
+
+/*SAMPLES*/
+
+/*#samples{height: 406px;}*/
+
+#samples div.row div:first-child {
+    background: url(imgs/texting.jpg);
+    height: 406px;
+    background-repeat: no-repeat;
+}
+
+#samples div.row div:nth-child(2) {
+    background: #3b3b3b;
+    color: #fff;
+    padding: 0 55px;
+}
+
+#samples h2 {
+    padding: 39px 0;
+}
+#samples p{
+    padding: 20px 0;
+    line-height: 30px;
+}
+
+.con-details{
+	padding: 50px 0;
+}
+
+.con-details {
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+/*.sample-desc{padding: 20px;}*/
